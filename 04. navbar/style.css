@@ -1,0 +1,56 @@
+html,body{
+    height: 100vh;
+    letter-spacing: 0.5rem;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color:lemonchiffon;
+    padding: 2rem;
+}
+
+.nav_header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn_menu{
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding: 0.5rem;
+    user-select: none;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+.nav_elements{
+    display: none;
+  }
+
+  
+
+.nav_elements>ul>li{
+    padding: 0.5rem; 
+    letter-spacing: 0.2rem;
+  }
+
+.nav_elements_on{
+   animation-name: show;
+    animation-duration: 2s; 
+    display: block;
+  }
+        
+@keyframes show {
+  from {opacity: 10%}
+ to {display: 100%}
+}
+
+
