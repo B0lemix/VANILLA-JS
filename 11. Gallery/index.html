@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Starter</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <h1>Gallery</h1></br></br>
+
+
+
+    <!-- Section:city images -->
+    <h3>City Section</h3>
+    <section class="section city">
+   
+
+      <img class="img" src="./images/city-1.jpeg" title="city-1" data-id="1" alt="city-1"/>
+       <img class="img" src="./images/city-2.jpeg" title="city-2" data-id="2" alt="city-2"/>
+       <img class="img" src="./images/city-3.jpeg" title="city-3" data-id="3" alt="city-3"/>
+       <img class="img" src="./images/city-4.jpeg" title="city-4" data-id="4" alt="city-4"/>
+       <img class="img" src="./images/city-5.jpeg" title="city-5" data-id="5" alt="city-5"/>
+
+
+    </section>
+
+
+<!-- Section:nature images -->
+    <h3>nature Section</h3>
+    <section class="section nature">
+     
+       <img class="img" src="./images/nature-1.jpeg" title="nature-1" data-id="1" alt="nature-1"/>
+       <img class="img" src="./images/nature-2.jpeg" title="nature-2" data-id="2" alt="nature-2"/>
+       <img class="img" src="./images/nature-3.jpeg" title="nature-3" data-id="3" alt="nature-3"/>
+
+    </section>
+
+
+
+    <!-- Section:container with MAIN IMG and section images types carrousel list, activated to click in each above img  -->
+
+
+    <section class="modal">
+
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+
+
+      <div class="modal-content">
+            <!-- prev next buttons -->
+            <button class="prev-btn">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="next-btn">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+
+            <!-- img modal container example -->
+            <img src="./images/city-1.jpeg" class="main-img" alt="" />
+        <h3 class="image-name">image name</h3>
+        <div class="modal-images">
+
+
+        </div>
+
+
+
+
+        </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
