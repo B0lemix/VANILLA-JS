@@ -1,6 +1,6 @@
 # VANILLA-JS
 
-Some projects made for learning purposes written in JavaScript vanilla . Uses the lessons of <a href="https://www.johnsmilga.com/">John Smilga</a> in <a>https://www.vanillajavascriptprojects.com</a> for JS.
+Some projects made for learning purposes written in JavaScript vanilla . Uses the lessons and STARTER KIT (CSS already written)  of <a href="https://www.johnsmilga.com/">John Smilga</a> in <a>https://www.vanillajavascriptprojects.com</a> for JS learning.
 <ul>
 <li><h3>1. colorFlipper -> Generate a ramdom color and copy to clipboard.</h3></li>
 <li><h3>2. counter -> Counter that increase or decrease a count.</h3></li>
@@ -13,4 +13,5 @@ Some projects made for learning purposes written in JavaScript vanilla . Uses th
 <li><h3>9. Slider -> Dinamic carousel slider .</h3></li>
 <li><h3>10. Counter -> A counter with increase, decrease, reset actions .</h3></li>
 <li><h3>11. Gallery -> Gallery in JS using classes .</h3></li>
+<li><h3>12. Numbers Counter -> Show a dinamic counter numbers until the value setted in data-value tag is reached  .</h3></li>
 </ul>
